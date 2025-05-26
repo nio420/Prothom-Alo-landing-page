@@ -1,0 +1,51 @@
+/* responsive website */
+@media screen and (max-width:430px){
+  #menu ul li{
+    display: inline-block;
+    margin: 0 10px 15px;
+  }
+  #main{
+  width: 96%;
+}
+#content{
+  width: 100%;
+  border-right: 0px solid #ddd;
+  float: none;
+  padding-bottom: 10px;
+}
+.child{
+  width: 96%;
+  float: none;
+  height: auto;
+  background: #ccc;
+  padding: 10px;
+  margin: 0 auto 15px;
+  border-radius: 5px;
+}
+.child:first-child{
+  width: 96%;
+  float: none;
+  padding: 10px;
+  margin: 0 auto 15px;
+}
+.child:first-child img{
+   display: block;
+   float: none;
+   padding: auto;
+   margin: 0 0 15px;
+}
+.child img{
+  /* max-width: 100%; */
+  width: 240px;
+  display: block;
+  margin: 0 0 15px;
+}
+#sidebar{
+  width: 100%;
+  float: none;
+  padding: 10px 2%;
+}
+.child_side{
+ text-align: center;
+}
+}
